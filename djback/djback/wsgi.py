@@ -1,5 +1,5 @@
 """
-WSGI config for users_endpoint project.
+WSGI config for djback project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'users_endpoint.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djback.settings')
 
 application = get_wsgi_application()
